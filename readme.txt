@@ -27,6 +27,10 @@ To see what the banner looks like go to http://ie6countdown.com/join-us.html.
 
 == Changelog ==
 
+**Version 1.0.1**
+
+* Fixed the "2 characters of unexpected output" error.
+
 **Version 1.0**
 
 * Created the plugin!

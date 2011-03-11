@@ -3,7 +3,7 @@
 Plugin Name: IE6 Countdown
 Plugin URI: http://museumthemes.com/plugins/IE-6-countdown/
 Description: A way to integrate Microsoft's official IE 6 Countdown banner onto your site.
-Version: 1.0
+Version: 1.0.1
 Author: Arcane Palette Creative Design
 Author URI: http://www.arcanepalette.com
 License: GPL3
@@ -38,6 +38,4 @@ function apie6countdown() {
 	echo '<!--[if lt IE 7]><div style="width: 100%; text-align: center; clear: both; height: 59px; position: relative;"> <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" height="42" width="820" alt="" /></a></div><![endif]-->';
 }
 add_action ( 'apie6countdown', 'apie6countdown' ) /* creates an action that can be thrown wherever you want to put it in your theme. */
-
 ?>
-
