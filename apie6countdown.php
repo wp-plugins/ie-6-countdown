@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: IE6 Countdown
+Plugin Name: IE 6 Countdown
 Plugin URI: http://museumthemes.com/plugins/IE-6-countdown/
 Description: A way to integrate Microsoft's official IE 6 Countdown banner onto your site.
 Version: 1.0.1
