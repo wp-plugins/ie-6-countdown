@@ -17,7 +17,7 @@ This plugin simplifies participation in Microsoft's campaign to eradicate Intern
 1. Upload the zip archive to the `/wp-content/plugins/` directory.
 2. Copy and paste the following somewhere into your header.php file (I recommend doing it before the final closing `</div>` of the header, but you can put it wherever looks best for your theme):
 `		// put this in your header, or wherever`
-`		<?php do_action('apie6countdown'); ?>`
+`		&lt;?php do_action('apie6countdown'); ?&gt;`
 3. Activate the plugin through the *Plugins* menu in WordPress.
 4. That's it!  If you can't see the message, it's working! (Unless you're using IE6, in which case <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">UPGRADE</a>!
 
@@ -34,7 +34,7 @@ To see what the banner looks like go to http://ie6countdown.com/join-us.html.
 
 **Version 1.0.1**
 
-* Fixed a bug that was creating the "2 lines of unexpected output" error
+* Fixed the "2 characters of unexpected output" error.
 
 **Version 1.0**
 
