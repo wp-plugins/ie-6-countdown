@@ -3,8 +3,8 @@ Contributors: jazzs3quence
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG3D4HYQ6
 Tags: ie6, internet explorer, browser, microsoft
 Requires at least: 2.8
-Tested up to: 3.2
-Stable tag: 1.0.2
+Tested up to: 3.2.1
+Stable tag: 1.0.3
 
 Help promote a safer internet.
 
@@ -14,10 +14,10 @@ This plugin simplifies participation in Microsoft's campaign to eradicate Intern
 
 == Installation ==
 
-1. Upload the zip archive to the `/wp-content/plugins/` directory.
+1. Unpack the zip archive and upload to the `/wp-content/plugins/` directory or use the WordPress plugin installer to install.
 2. Copy and paste the following somewhere into your header.php file (I recommend doing it before the final closing `</div>` of the header, but you can put it wherever looks best for your theme):
-`		// put this in your header, or wherever`
-`		&lt;?php do_action('apie6countdown'); ?&gt;`
+`		// put this in your header, or wherever  
+		&lt;?php do_action('apie6countdown'); ?&gt;`
 3. Activate the plugin through the *Plugins* menu in WordPress.
 4. That's it!  If you can't see the message, it's working! (Unless you're using IE6, in which case <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">UPGRADE</a>!
 
@@ -26,6 +26,11 @@ This plugin simplifies participation in Microsoft's campaign to eradicate Intern
 To see what the banner looks like go to http://ie6countdown.com/join-us.html.
 
 == Changelog ==
+
+**Version 1.0.3**
+
+* Updated "tested up to" tag
+* Updated installation notes
 
 **Version 1.0.2**
 
