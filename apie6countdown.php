@@ -3,7 +3,7 @@
 Plugin Name: IE 6 Countdown
 Plugin URI: http://museumthemes.com/plugins/IE-6-countdown/
 Description: A way to integrate Microsoft's official IE 6 Countdown banner onto your site.
-Version: 1.0.3
+Version: 1.0.4
 Author: Arcane Palette Creative Design
 Author URI: http://www.arcanepalette.com
 License: GPL3
@@ -15,8 +15,8 @@ License: GPL3
 		<?php do_action('apie6countdown'); ?>
 
    Got it?  Easy enough, right?  I recommend putting this in your header.php right under your banner/navbar and/or right above your content.  The banner from Microsoft is 820px wide, so the theory is that throwing it into your header shouldn't break anything since that's most likely to be the widest part of your theme.  However, your mileage may vary. */
-   
-/* 
+
+/*
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
